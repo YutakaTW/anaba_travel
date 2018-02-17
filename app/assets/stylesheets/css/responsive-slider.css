@@ -149,7 +149,7 @@
 .responsive-slider .slider-control.left {
   left: 0;
   padding-left: 0;
-  -webkit-border-radius: ;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
 .responsive-slider .slider-control.left:hover {
@@ -159,7 +159,7 @@
 .responsive-slider .slider-control.right {
   right: 0;
   padding-right: 0;
-  -webkit-border-radius: ;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
 .responsive-slider .slider-control.right:hover {
