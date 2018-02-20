@@ -28,6 +28,10 @@ a:hover {
 	text-decoration:none;	
 }
 
+div.navbar-brand img {
+  width: 100%
+}
+
 .navbar-default {
 	background-color: #fff;
 	border-radius:0;
