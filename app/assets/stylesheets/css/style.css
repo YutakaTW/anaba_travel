@@ -16,7 +16,7 @@
 
 
 body {
-  font-family:"Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  font-family:"Hiragino Kaku Gothic ProN","メイリオ", "微軟正黑體", sans-serif;
   font-size:14px;
   font-weight:300;
   line-height:1.6em;
@@ -25,7 +25,7 @@ body {
 }
 
 a:hover {
-  text-decoration:none; 
+  text-decoration:none;
 }
 
 div.navbar-brand img {
@@ -34,7 +34,7 @@ div.navbar-brand img {
 @media (max-width: 410px){
 div.navbar-brand img {
   width: 110%;
-  } 
+  }
 }
 
 .navbar-default {
@@ -42,7 +42,7 @@ div.navbar-brand img {
   border-radius:0;
   border-right:0;
   border-left:0;
-  border-top:0; 
+  border-top:0;
 }
 
 
@@ -67,7 +67,7 @@ div.navbar-brand img {
   padding: 20px;
   font-size: 30px;
   margin-top:-23px;
-  color:#5FB404;    
+  color:#5FB404;
 }
 .navbar-brand h1:hover {
   background-color:#fff;
@@ -77,26 +77,26 @@ div.navbar-brand img {
   font-size:14px;
   float:right;
   text-transform:uppercase;
-  font-weight:600;  
+  font-weight:600;
 }
 .menu ul.nav-tabs li {
-  color:#000; 
+  color:#000;
 }
 @media (max-width: 991px){
 .menu {
   margin-top: 15px;
-  } 
+  }
 }
 @media (max-width: 541px){
 .menu a {
   font-size: 10px;
-  } 
+  }
 }
 @media (max-width: 410px){
 .menu {
   margin-top: 10px;
   margin-bottom: -3px;
-  } 
+  }
 }
 
 .nav-tabs {
@@ -116,7 +116,7 @@ div.navbar-brand img {
   color:#000;
   border-top:0;
   border-right:0;
-  border-left:0;  
+  border-left:0;
 }
 @media (max-width: 410px){
 .nav-tabs > li > a {
@@ -147,25 +147,25 @@ div.navbar-brand img {
   background-color: #5FB404;
   border: 0;
   border-bottom-color: transparent;
-  cursor:pointer;  
+  cursor:pointer;
 }
 
 .slides {
-  margin-top:-21px; 
+  margin-top:-21px;
 }
 
 button {
   -webkit-appearance: none;
-  padding: 0; 
+  padding: 0;
   background: transparent;
   border: 0;
 }
 
 button.btn-primary h2 {
-  padding:0;  
+  padding:0;
 }
 .btn {
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
   text-align: center;
@@ -173,7 +173,7 @@ button.btn-primary h2 {
   vertical-align: middle;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
-  
+
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -196,22 +196,22 @@ button.btn-primary h2 {
   background-color:#fff;
   padding:50px;
   text-align:center;
-  color:#5FB404;  
+  color:#5FB404;
 }
 .contents p {
   color:#5FB404;
   text-transform:uppercase;
 }
 
-.contents h2 {  
+.contents h2 {
   font-size:40px;
 }
 
 .recent button.btn-primarys h3 {
   padding:10px;
-  font-size:30px; 
+  font-size:30px;
   text-decoration:0;
-  color:#5FB404;  
+  color:#5FB404;
 }
 
 .content {
@@ -278,16 +278,16 @@ button.btn-primary h2 {
 .thumnails h4 {
   color:#5FB404;
   text-align:center;
-  margin-bottom:10px; 
+  margin-bottom:10px;
 }
 .thumnails p {
-  margin-bottom:-15px;  
+  margin-bottom:-15px;
 }
 .thumnails .ficon {
   text-align:center;
 }
 .company {
-  color:#000; 
+  color:#000;
 }
 .responsive-slider .slides ul li .slide-bodys  img {
   max-width: 100%;
@@ -295,7 +295,7 @@ button.btn-primary h2 {
 
 .slide-bodys {
   margin-top:55px;
-  margin-bottom:30px; 
+  margin-bottom:30px;
 }
 section.portfolio {
   margin-top:50px;
@@ -342,7 +342,7 @@ section.portfolio {
 }
 .blog img {
   margin-top:10px;
-  margin-bottom:10px; 
+  margin-bottom:10px;
 }
 
 .blog h3,p {
@@ -354,7 +354,7 @@ section.portfolio {
   margin-bottom:30px;
 }
 .form-search .form-control {
-  margin-top:20px;  
+  margin-top:20px;
 }
 
 .media h4 {
@@ -390,7 +390,7 @@ section.portfolio {
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  text-align:center; 
+  text-align:center;
 }
 
 .panel-default {
@@ -418,7 +418,7 @@ section.portfolio {
   text-align:center;
   margin-bottom:-5px;
   background:#5FB404;
-  
+
   padding:15px 20px;
 }
 .list-group-item {
@@ -455,7 +455,7 @@ section.portfolio {
   margin:0;
   margin-left: 0;
   padding-left:0;
-  
+
 }
 .popular-tags ul.tags li {
   margin:0 5px 15px 0;
@@ -483,10 +483,12 @@ section.portfolio {
 
 .contact-area  {
   color:#000;
+  margin-top: -12px;
   margin-bottom:30px;
 }
 .contact-area h4 {
-  color:#5FB404;
+  color:#000000;
+  margin-bottom: -16px;
 }
 
 button.btn-default {
@@ -618,7 +620,7 @@ h4.heading {
 /* --- widgets --- */
 
 .widget {
-  padding:40px;
+  padding:0px;
 
 }
 .widgetheading {
@@ -676,8 +678,8 @@ footer .widget .flickr_badge img {
     padding-bottom: 5px;
 
 }
-.twitter li{    
-    border-bottom: 1px dashed #efefef;    
+.twitter li{
+    border-bottom: 1px dashed #efefef;
     padding-bottom: 20px;
     margin-bottom: 20px;
     list-style: none;
