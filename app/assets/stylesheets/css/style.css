@@ -642,6 +642,13 @@ footer .widget .social-network {
   position:relative;
 }
 
+@media (max-width: 1199px){
+.widgetheading {
+  margin-top:50px;
+  margin-bottom: 20px;
+  }
+}
+
 /* --- flickr --- */
 .widget .flickr_badge {
   width:100%;
@@ -707,9 +714,6 @@ ul.link-list li{
 
 footer ul.link-list li a {
   color:#000;
-}
-footer ul.link-list li a:hover {
-  color:#5FB404;
 }
 
 footer .widget ul li a {
