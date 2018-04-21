@@ -84,6 +84,9 @@ GEM
     multi_json (1.13.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    passenger (5.2.3)
+      rack
+      rake (>= 0.8.1)
     pg (0.21.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -179,6 +182,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks
+  passenger
   pg
   pry-rails
   rails (= 4.2.6)

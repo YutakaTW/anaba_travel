@@ -80,4 +80,6 @@ Rails.application.configure do
 
   # precompile font-awesome
   config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
 end
