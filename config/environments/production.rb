@@ -82,4 +82,20 @@ Rails.application.configure do
   config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
 
   config.secret_key_base = ENV["SECRET_KEY_BASE"]
+
+  # action mailer
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  host = 'taiwananabatravel.com'
+  config.action_mailer.default_url_options = { host: host }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :enable_starttls_auto => true,
+    :address => "smtp.gmail.com",
+    :port => 587,
+    :domain => 'smtp.gmail.com',
+    :user_name => ENV["GMAIL_USER_NAME"],
+    :password => ENV["GMAIL_PASSWORD"],
+    :authentication => 'login'
+  }
 end
